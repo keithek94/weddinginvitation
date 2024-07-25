@@ -1,0 +1,93 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/2468207.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; 
+    /*overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+                position: relative;
+                z-index: 1; /* Place content above the navigation bar */
+}
+
+/* Add this to make the navigation bar transparent 
+nav {
+background-color: rgba(0, 0, 0, 0) !important;
+border-bottom: none;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 0;
+}
+
+nav ul {
+background-color: transparent !important;
+}
+
+nav li {
+background-color: transparent !important;
+}
+
+nav a {
+color: #FFFFFF !important;
+}
+
+nav a:hover {
+color: #CCCCCC !important;
+}*/
+
+.wedding-photo {
+width: 80%;
+border-radius: 100%;
+margin-top: 30px;
+opacity: 0.95; /* Added opacity property */
+border: 5px solid rgba(255, 255, 255, 0.5); /* Added border property */
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Added box-shadow property */
+}
+
+.rsvp-form {
+    margin-top: 20px;
+}
+
+.rotate {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.container p {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 18px;
+    color: #666;
+}
+
+.container h1 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 48px;
+    color: #333;
+                line-height: 0.2;
+                margin-bottom: 10px
+}
+
+button2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
